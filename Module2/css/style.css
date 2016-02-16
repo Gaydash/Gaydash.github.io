@@ -1,0 +1,41 @@
+* {margin: 0;
+    padding: 0;
+  }
+
+.header {width: 1062;
+    height: 950;
+
+  }
+
+h1 {padding: 45px;
+  }
+
+a { display: table-cell;
+    height: 45px;
+    background-color: #535252;
+    color: white;
+    text-decoration: none;
+    padding: center;
+    margin-left: 45px;
+    border: 2px solid #c8c8c8;
+}
+
+li {list-style: none;
+    width: 240px;
+    margin-left: 45px;
+    padding: 17px;
+    size: 40px;
+    border: 2px solid #c8c8c8;
+}
+
+li:first-child {margin-top: 45px;
+}
+
+.things {width: 685px;
+    height: 585px;
+}
+
+img {
+    width: 678px;
+    height: 395px;
+  }
