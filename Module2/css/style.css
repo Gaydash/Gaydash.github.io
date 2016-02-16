@@ -17,7 +17,9 @@ a { display: table-cell;
     text-decoration: none;
     padding: center;
     margin-left: 45px;
-    border: 2px solid #c8c8c8;
+    padding-left: 45px;
+    
+    /*border: 2px solid #c8c8c8;*/
 }
 
 li {list-style: none;
