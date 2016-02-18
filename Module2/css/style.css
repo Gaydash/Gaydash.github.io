@@ -1,43 +1,116 @@
-* {margin: 0;
-    padding: 0;
-  }
+body {
+    background-color: #f9f9f9;
+    color: #2c2c2c;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+}
 
-.header {width: 1062;
-    height: 950;
+.all {
+    background-color: white;
+    box-sizing: border-box;
+    height: 950px;
+    width: 1060px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    margin: 0 auto;
+    padding: 50px 47px;
+}
 
-  }
+h1 {
+    font-family: verginia;
+    font-size: 25px;
+}
 
-h1 {padding: 45px;
-  }
+.main-menu {
+    background-color: #545454;
+    font-size: 0;
+    height: 40px;
+    width: 100%;
+    margin: 40px 0;
+}
 
-a { display: table-cell;
-    height: 45px;
-    background-color: #535252;
+.main-menu a{
+    width: 87px;
     color: white;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
     text-decoration: none;
-    padding: center;
-    margin-left: 45px;
-    padding-left: 45px;
-    
-    /*border: 2px solid #c8c8c8;*/
+    margin-right: 35px;
+    padding: 12px 10px;
+    display: inline-block;
 }
 
-li {list-style: none;
-    width: 240px;
-    margin-left: 45px;
-    padding: 17px;
-    size: 40px;
-    border: 2px solid #c8c8c8;
+.main-menu a:hover {
+    background-color: #474747;
+    width: 85px;
+    border-left: 1px solid #838383;
+    border-right: 1px solid #838383;
 }
 
-li:first-child {margin-top: 45px;
+.l-bar {
+    height: 240px;
+    width: 238px;
+    float: left;
 }
 
-.things {width: 685px;
-    height: 585px;
+.l-bar a {
+    border: 1px solid gray;
+    border-bottom: 0;
+    color: #656363;
+    text-decoration: none;
+    padding: 13px 22px;
+    display: block;
 }
 
-img {
-    width: 678px;
-    height: 395px;
-  }
+.l-bar:first-child{
+    border-bottom: 1px solid gray;
+}
+
+.l-bar a:hover{
+    background-color: #f9f9f9;
+    color: #2c2c2c;
+    padding-left: 35px;
+}
+
+.picture {
+    height: 600px;
+    width: 679px;
+    float: right;
+    margin-bottom: 40px;
+}
+
+.picture img{
+    background-color: white;
+    border: 1px solid gray;
+    padding: 46px 88px;
+}
+
+.picture p{
+    line-height: 21px;
+    margin: 32px 25px;
+}
+
+footer{
+    background-color: #e1e1e1;
+    margin: 50px 0;
+    clear: right;
+}
+
+footer a{
+    font-size: 13px;
+    display: inline-block;
+    margin: 0 55px 0 10px;
+    padding: 13px;
+    color: #2c2c2c;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+footer .sign {
+    display: inline-block;
+    text-align: right;
+    margin-left: 210px;
+}
