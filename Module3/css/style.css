@@ -14,11 +14,14 @@ body {
     margin: 0 auto;
     padding: 50px 47px;
 }
-
-h1 {
+.logo{
+    font-size: 50px;
+    margin: -1px -1px;
+    }
+/*h1 {
     font-family: verginia;
     font-size: 25px;
-}
+}*/
 
 .main-menu {
     background-color: #545454;
@@ -54,7 +57,7 @@ h1 {
 }
 
 .l-bar a {
-    border: 1px solid gray;
+    border: 2px solid #e1e1e1;
     border-bottom: 0;
     color: #656363;
     text-decoration: none;
@@ -63,7 +66,7 @@ h1 {
 }
 
 .l-bar:first-child{
-    border-bottom: 1px solid gray;
+    border-bottom: 2px solid #e1e1e1;
 }
 
 .l-bar a:hover{
@@ -81,7 +84,7 @@ h1 {
 
 .picture img{
     background-color: white;
-    border: 1px solid gray;
+    border: 2px solid #e1e1e1;
     padding: 46px 88px;
 }
 
