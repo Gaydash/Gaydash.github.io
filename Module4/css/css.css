@@ -1,11 +1,240 @@
-/*body {
-    background-image: url(img/img0_1.jpg);
-}*/
+body{
+    background-color: red;
+    background: linear-gradient(to bottom, #318aa8 0%,#318aa8 3%,#77f0ff 3%,#48cde3 3%,#4fd1e5 5%,#6cdbea 7%,#88e3f0 9%,#ddf7fa 14%,#f3fcfe 17.6%,#ffffff 17.6%,#5ac6d4 17.6%,#58c3d2 19%,#4cb4c8 23%,#3c9fba 27%,#3595b4 30%,#3391b2 32%,#318aae 51%,#2973a0 95%,#2973a1 100%);
+/*    background-image: url(../img/homework4-preview.jpg);*/
+    background-position: top center;
+    background-repeat: no-repeat;
+    color: #2c2c2c;
+    font-size: 14px;
+    font-family: 'Tahoma', sans-serif;
+}
 
-header{margin: 40px 40px}
-.logo {float: left;}
+.page{
+    background-color: white;
+    width: 1000px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.5);
+    margin: 0 auto;
+/*    opacity: 0.7;*/
+}
 
-.details {
-  padding: 20px 20px 0px 0px;
-  color: blue;
-  float: right;}
+header{
+    width: 100%;
+    height: 175px;
+    position: relative;
+}
+
+header .logo{
+    left: 28px;
+    bottom: 0;
+    position: absolute;
+}
+
+header h1{
+    font-size: 12px;
+    color: #128aa7;
+    position: absolute;
+    left: 99px;
+    top: 109px;
+}
+
+header .contacts{
+    font-size: 13px;
+    color: #128aa7;
+    position: absolute;
+    top: 9px;
+    right: 23px;
+}
+
+header .countries{
+    position: absolute;
+    right: 28px;
+    bottom: 8px;
+}
+
+header .countries li{
+    display: inline-block;
+    width: 53px;
+    text-align: center;
+}
+
+header .countries a{
+     color: #128aa7;
+    font-size: 10px;
+}
+
+header .countries a:hover{
+    color: black;
+}
+
+header .countries img{
+    margin: 0 5px -2px 5px;
+}
+
+header .contacts p{
+    margin-bottom: 5px;
+}
+
+header .contacts p a{
+    color: #128aa7;
+    text-decoration: none;
+}
+
+.header-img{
+    display: block;
+    width: 1000px;
+    height: 235px;
+    border: 1px solid #128aa7;
+    border-left: 0;
+    border-right: 0;
+}
+
+.menu{
+    background: linear-gradient(to bottom, #373737 0%,#303030 100%);
+    border-top: 1px solid #cacbcb;
+    border-bottom: 1px solid #000000;
+    box-shadow: 0 3px 10px rgba(0,0,0, 0.5);
+    height: 28px;
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.menu li{
+    float: left;
+    margin: -1px 0 0 40px;
+    text-align: center;
+}
+
+.menu li:hover ul {
+    display: block;
+}
+
+.menu li img{
+    padding: 1px;;
+    transform: rotate(-90deg);
+}
+
+.menu li:hover img{
+    transform: rotate(0deg);
+}
+
+.menu a{
+    display: block;
+    padding: 8px 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: aqua;
+}
+
+.menu a img{
+    margin: 0 0 0 15px;
+
+}
+
+.menu ul{
+    background-color: #303030;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.5);
+    position: absolute;
+    margin-left:  2px;
+    display: none;
+}
+
+.menu ul li{
+    margin: 0;
+    padding: 0;
+
+    float: none;
+    width: 150px;
+}
+
+.menu ul a{
+    margin: 0;
+    padding: 5px 20px 5px 8px;
+    color: white;
+    text-decoration: none;
+    text-align: left;
+}
+
+.menu ul :last-child a{
+    padding-bottom: 10px;
+}
+
+.container{
+/*    background-color: antiquewhite;*/
+    background: url(../img/columns-bg.png) repeat-y;
+    width: 1000px;
+    line-height: 20px;
+    float: left;
+    z-index: 1;
+}
+
+.container .info{
+    border-left: 1px solid #c7cacf;
+    border-right: 1px solid #c7cacf;
+    width: 178px;
+    padding: 10px 15px 15px 15px;
+    float: left;
+}
+
+.info h1{
+    text-align: center;
+    font-size: 18px;
+}
+
+.info p{
+    margin-top: 4px;
+}
+
+.container .content{
+    background-color: white;
+    width: 550px;
+    padding: 10px 15px 15px 15px;
+/*    position: relative;*/
+    float: left;
+}
+
+.container .news{
+    border-left: 1px solid #c7cacf;
+    border-right: 1px solid #c7cacf;
+    width: 178px;
+    padding: 10px 15px 15px 15px;
+    float: left;
+}
+
+.news h1{
+    text-align: center;
+    font-size: 18px;
+    margin-left: -8px;
+}
+
+.news p{
+    margin-top: 4px;
+}
+
+.test{
+    background-color: silver;
+    height: 100px;
+    width: 200px;
+    margin: 0 20px 20px 0;
+    float: left;
+/*    position: absolute;*/
+}
+
+footer{
+
+    color: white;
+    margin: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.clearfix:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
