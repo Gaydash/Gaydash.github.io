@@ -1,7 +1,6 @@
 body{
     background-color: red;
     background: linear-gradient(to bottom, #318aa8 0%,#318aa8 3%,#77f0ff 3%,#48cde3 3%,#4fd1e5 5%,#6cdbea 7%,#88e3f0 9%,#ddf7fa 14%,#f3fcfe 17.6%,#ffffff 17.6%,#5ac6d4 17.6%,#58c3d2 19%,#4cb4c8 23%,#3c9fba 27%,#3595b4 30%,#3391b2 32%,#318aae 51%,#2973a0 95%,#2973a1 100%);
-/*    background-image: url(../img/homework4-preview.jpg);*/
     background-position: top center;
     background-repeat: no-repeat;
     color: #2c2c2c;
@@ -14,7 +13,6 @@ body{
     width: 1000px;
     box-shadow: 0 0 25px rgba(0,0,0,0.5);
     margin: 0 auto;
-/*    opacity: 0.7;*/
 }
 
 header{
@@ -163,7 +161,6 @@ header .contacts p a{
 }
 
 .container{
-/*    background-color: antiquewhite;*/
     background: url(../img/columns-bg.png) repeat-y;
     width: 1000px;
     line-height: 20px;
@@ -171,47 +168,55 @@ header .contacts p a{
     z-index: 1;
 }
 
-.container .info{
-    border-left: 1px solid #c7cacf;
-    border-right: 1px solid #c7cacf;
-    width: 178px;
-    padding: 10px 15px 15px 15px;
-    float: left;
+.fon {
+width: 1000px;
+overflow: hidden; /* чтобы лишнее обрезалось */
 }
 
+.info {
+width: 20%;
+float: left;
+background: #e1e1e1;
+padding-bottom: 20000px;
+margin-bottom: -20000px;
+
+}
 .info h1{
     text-align: center;
     font-size: 18px;
+    margin-top: 10px;
 }
 
 .info p{
-    margin-top: 4px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
-.container .content{
-    background-color: white;
-    width: 550px;
-    padding: 10px 15px 15px 15px;
-/*    position: relative;*/
-    float: left;
-}
 
-.container .news{
-    border-left: 1px solid #c7cacf;
-    border-right: 1px solid #c7cacf;
-    width: 178px;
-    padding: 10px 15px 15px 15px;
-    float: left;
+.content {
+width: 60%;
+float: left;
+padding-bottom: 20000px;
+margin-bottom: -20000px;
+}
+.news {
+width: 20%;
+float: right;;
+padding-bottom: 20000px;
+margin-bottom: -20000px;
+background: #e1e1e1;
 }
 
 .news h1{
     text-align: center;
     font-size: 18px;
     margin-left: -8px;
-}
+    margin-top: 10px;
 
+}
 .news p{
-    margin-top: 4px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 .test{
@@ -220,7 +225,6 @@ header .contacts p a{
     width: 200px;
     margin: 0 20px 20px 0;
     float: left;
-/*    position: absolute;*/
 }
 
 footer{
