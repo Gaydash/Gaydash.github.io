@@ -57,7 +57,7 @@ body {
 }
 
 .l-bar a {
-    border: 2px solid #e1e1e1;
+    border: 1px solid #e1e1e1;
     border-bottom: 0;
     color: #656363;
     text-decoration: none;
@@ -66,7 +66,7 @@ body {
 }
 
 .l-bar:first-child{
-    border-bottom: 2px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
 }
 
 .l-bar a:hover{
@@ -84,7 +84,7 @@ body {
 
 .picture img{
     background-color: white;
-    border: 2px solid #e1e1e1;
+    border: 1px solid #e1e1e1;
     padding: 46px 88px;
 }
 
